@@ -329,17 +329,23 @@ line-height: 40px;
 .sponsors-img-container img {
     width: 165px;
 }
-.card{
+.card {
     display: flex;
     border-radius: 50px;
     row-gap: 20px;
     column-gap: 20px;
     background-color: #f5f2f4;
 }
-.close{
+.close {
     height: 620px;
     width: 1920px;
-    background-color: #0B0223;;
+    background-color: #0B0223;
+}
+.footer-close {
+    display: grid;
+    grid-template-columns: auto;
+    display position: relative;
+    text color: light gray;
 }
 /* responsive media queries */
 /* mobile devices */
